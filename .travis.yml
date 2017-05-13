@@ -3,7 +3,7 @@ osx_image: xcode8
 podfile: Nebulous/Podfile
 language: objective-c
 xcode_workspace: Nebulous/Nebulous.xcworkspace # path to your xcodeproj folder
-xcode_scheme: Nebulous/NebulousTests
+# xcode_scheme: Nebulous/NebulousTests
 
 env:
   - scheme='Siesta iOS'   platform='iOS Simulator' ios_version='10.1' ios_device='iPhone SE'

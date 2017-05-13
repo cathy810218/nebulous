@@ -9,14 +9,14 @@
 #import <Foundation/Foundation.h>
 
 @interface HourlyForecast : NSObject
-@property(strong, nonatomic) NSString *feelsLike;
-@property(strong, nonatomic) NSString *humidity;
-@property(strong, nonatomic) NSString *precipProbability;
-@property(strong, nonatomic) NSString *icon;
-@property(strong, nonatomic) NSString *windBearing;
-@property(strong, nonatomic) NSString *temperature;
-@property(strong, nonatomic) NSString *time;
-@property(strong, nonatomic) NSString *celsius;
+@property(copy, nonatomic) NSString *feelsLike;
+@property(copy, nonatomic) NSString *humidity;
+@property(copy, nonatomic) NSString *precipProbability;
+@property(copy, nonatomic) NSString *icon;
+@property(copy, nonatomic) NSString *windBearing;
+@property(copy, nonatomic) NSString *temperature;
+@property(copy, nonatomic) NSString *time;
+@property(copy, nonatomic) NSString *celsius;
 
 
 -(id)initWithHourlyDictionary:(NSDictionary *)dictionary;
